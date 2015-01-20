@@ -33,6 +33,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func sendMailButtonPressed(sender: AnyObject) {
+        // this is a comment YOLO
         
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
